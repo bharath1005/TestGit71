@@ -252,8 +252,19 @@ public void KSD() {
 	 		System.out.println("List "+s1);
 		}
 	 }
+       public void reverseStringByBharath() {
+    		String name = "bharath";
+    		String temp= null;
+    		for(int i= name.length()-1; i >= 0; i--)
+    		{
+    		char ch = name.charAt(i);
+    		temp =temp+ch;
+    		
+    		}
+    		System.out.println("Reverse string of Given "+temp);
+    		}
+	}
 
-}
 
 
 
